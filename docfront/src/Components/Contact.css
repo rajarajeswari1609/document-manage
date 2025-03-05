@@ -1,0 +1,27 @@
+/* Contact.css */
+
+
+.contact-container {
+    padding: 24px;
+    text-align: center;
+    background-image: url('e:\blue.jpg'); 
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-title {
+    font-size: 1.875rem; /* Tailwind text-2xl */
+    font-weight: bold;
+    color: #1e40af; /* Tailwind blue-700 */
+}
+
+.contact-text {
+    margin-top: 8px;
+    font-size: 1.125rem; /* Tailwind text-lg */
+    color: #4b5563; /* Tailwind gray-600 */
+}

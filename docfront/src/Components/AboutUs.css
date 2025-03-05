@@ -1,0 +1,47 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color:white;
+    margin-left: 420px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color:darkblue;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    color: black;
+    margin-bottom: 16px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 24px;
+  }
+  
+  li {
+    font-size: 1.125rem;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  span {
+    color: #007bff;
+    font-weight: 500;
+  }

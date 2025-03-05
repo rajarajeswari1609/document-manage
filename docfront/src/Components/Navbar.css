@@ -1,0 +1,45 @@
+/* Navbar Styling */
+.primary-nav {
+    background-color: #1e3a8a; /* Dark blue */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* NavLink Styling */
+.primary-nav a {
+    text-decoration: none;
+    color: white;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.primary-nav a:hover {
+    color: #fbbf24; /* Yellow hover effect */
+    transform: scale(1.1);
+}
+
+/* Active Link Styling */
+.primary-nav a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fbbf24; /* Yellow underline for active page */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .primary-nav {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .primary-nav a {
+        font-size: 1rem;
+        padding: 8px;
+    }
+} 
