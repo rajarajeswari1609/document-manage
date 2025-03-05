@@ -11,12 +11,11 @@ const Signup = () => {
 
   const [message, setMessage] = useState("");
 
-  // Handle input change
-  const handleChange = (e) => {
+ const handleChange = (e) => {
     setUser({ ...user, [e.target.name]: e.target.value });
   };
 
-  // Handle form submission
+ 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setMessage("");
